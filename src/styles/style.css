@@ -1,0 +1,277 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+header {
+    padding: 10px;
+}
+
+.tituloCripto{
+  height: 80px;
+  padding: 10px 0 5px 450px;
+}
+
+
+
+body{
+    background-image: url('/src/assets/backgroundharrypotter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+
+
+.mensagem-escrita {
+    margin-left: 50px;
+}
+
+
+.text-area {
+    display: flex;
+    border: none;
+    color: #ffd34d;
+    margin: 50px;
+    text-transform: lowercase;
+    background-color: #F3F5FC;
+    resize: none;  
+    background: transparent; 
+}
+
+::placeholder {color: #ffd34d;}
+    .text-area:focus {
+        outline: none;
+}
+
+.mensagem {
+    display: flex;
+    background-color: transparent;
+    background-image: url(/src/assets/procurandomensagem.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    border: none;
+    resize: none;
+    color: #ffd34d;
+}
+
+p {
+  font-size: 24px;
+  height: 120px;
+}
+
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    padding-bottom: 72px;
+    gap: 24px;
+}
+
+h6{
+    font-size: 12px;
+    padding-top: 100px;
+    color: #ffd34d;    
+}
+
+.botoes .btn-encriptar{
+    background-color: #1D3461;
+    width: 310px;
+    height: 67px;
+    border-radius: 24px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botoes .btn-desencriptar{
+    background-color: #0b730f;
+    width: 310px;
+    height: 67px;
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mensagem.com-texto {
+    background-image: none;
+    
+}
+
+
+.btn-copiar {
+    background-color:  #af4c4c;
+    width: 280px;
+    height: 67px;
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+} 
+    
+
+@media (max-width: 1250px) {
+    * {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        
+      }
+
+      .tituloCripto {
+        height: 80px;
+        padding: 10px 5vw;
+        max-width: 90%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding-left: 13vw; 
+    }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+        max-width: 900px;
+      }
+      
+      .cabecalho {
+        display: flex;        
+        margin-right: 100px;
+        width: 86%;
+      }
+      
+      
+      body {
+        background-color: #F3F5FC;
+      }
+
+            
+      main {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+      }
+      
+      .mensagem-escrita {
+        width: 100%;
+        
+      }
+      
+      .text-area {
+        display: flex;
+        border: none;
+        border-radius: 20px;
+        color: #ffd34d;
+        text-transform: lowercase;
+        background-color:transparent;
+        width: 85%;
+        resize: none;
+        height: 200px;
+        margin: 0;
+        left: 100px;
+      }
+      
+      ::placeholder {
+        color: #ffd34d;
+      }
+      
+      .text-area:focus {
+        outline: none;
+      }
+      
+      .mensagem-resultado{
+        width: 100%;
+      }
+
+      .mensagem-wrapper {
+        padding: 0 0 0 25px;
+      
+      }
+    
+      .mensagem {
+        display: flex;
+        background: #ffffff;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px;
+        border: none;
+        height: 200px;
+        resize: none;
+        width: 85%;
+      }
+
+      h6{
+        padding: 0px;
+        margin: 0;
+        width: 85%;
+      }
+      
+      .mensagem:focus {
+        outline: none;
+      }
+      
+      .botoes {
+        display: flex;
+        margin-top: 18px;
+        padding-bottom: 72px;
+        gap: 24px;
+        width: 85%;
+      }
+      
+      h6 {
+        font-size: 12px;
+        padding-top: 100px;
+      }
+      
+      .botoes .btn-encriptar {
+        background-color: #0A3871;
+        width: 85%;
+        height: 67px;
+        border-radius: 24px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .botoes .btn-desencriptar {
+        background-color: #0b730f;
+        width: 85%;
+    }
+
+    .botao-copiar {
+      display: flex;
+      justify-content: center; 
+      margin-top: 20px; 
+      width: 85%;
+  }
+  
+  #btn-copiar {
+      width: 65%;
+      max-width: 300px; 
+      margin: 0;
+  }
+
+    
+};
+
