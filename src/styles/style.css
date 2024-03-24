@@ -209,13 +209,15 @@ h6{
       
       }
     
-      .mensagem {
+     .mensagem {
         display: flex;
-        background: #ffffff;
+        background: transparent;
+        border-color: #F3F5FC;
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 20px;
-        border: none;
+        border-style: solid;
+        border-width: 2px;
         height: 200px;
         resize: none;
         width: 85%;
