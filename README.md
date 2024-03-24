@@ -5,7 +5,7 @@ Ele permite que os usuários criptografem e descriptografem mensagens usando um 
 
 Veja que legal como fica a página inicial :
 
-!
+<img src="src/assets/printCriptografadordetexto.PNG">
 
 ## Ferramentas utilizadas:
 
